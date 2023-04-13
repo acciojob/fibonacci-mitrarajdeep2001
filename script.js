@@ -8,6 +8,7 @@ function fibonacci(num) {
 		lTerm = nthTerm;
 		i++;
 	}
+	return nthTerm;
 }
 
 module.exports = fibonacci;
